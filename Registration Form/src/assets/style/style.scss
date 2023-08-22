@@ -1,0 +1,91 @@
+* {
+	padding: 0px;
+	margin: 0px;
+    font-family:Verdana;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/*Main*/
+body {
+    background-color: rgb(13, 13, 13);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.registration {
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+    &:hover {
+        transform: scale(1.03);
+    }
+    &:focus {
+        transform: scale(1.03);
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 201, 0);
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    &:hover {
+        background-color: rgb(0, 178, 0);
+    }
+}
+
+
+.sucsess {
+    margin: 35px auto 0px;
+
+    p {
+        padding: 10px 15px;
+        background-color: rgb(0, 201, 0);
+        border-radius: 25px;
+    }
+}
+
+.not-visible {
+    display: none;
+}
